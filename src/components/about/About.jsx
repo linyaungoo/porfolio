@@ -1,10 +1,11 @@
 import React from 'react'
 import "./about.css"
 import about from '../../assets/avatar-2.svg'
+import AboutBox from './AboutBox'
 const About = () => {
   return (
-    <div>
-      <section className="about container section" id='#about'>
+    
+      <section className="about container section" id='about' >
         <h2 className="section__title">
           About Me
         </h2>
@@ -19,38 +20,38 @@ const About = () => {
 
               <div className="skills__data">
                 <div className="skills__titles">
-                  <h3 className="skills__name"></h3>
-                  <span className="skills__number"></span>
+                  <h3 className="skills__name">JavaSE</h3>
+                  <span className="skills__number">70%</span>
                 </div>
-                <div className="skill__bar">
+                <div className="skills__bar">
+                  <span className="skills__percentage javaSE"></span>
+                </div>
+              </div>
+
+              <div className="skills__data">
+                <div className="skills__titles">
+                  <h3 className="skills__name">JavaScript</h3>
+                  <span className="skills__number">60%</span>
+                </div>
+                <div className="skills__bar">
                   <span className="skills__percentage"></span>
                 </div>
               </div>
 
               <div className="skills__data">
                 <div className="skills__titles">
-                  <h3 className="skills__name"></h3>
-                  <span className="skills__number"></span>
+                  <h3 className="skills__name">Html</h3>
+                  <span className="skills__number">80%</span>
                 </div>
-                <div className="skill__bar">
-                  <span className="skills__percentage"></span>
-                </div>
-              </div>
-
-              <div className="skills__data">
-                <div className="skills__titles">
-                  <h3 className="skills__name"></h3>
-                  <span className="skills__number"></span>
-                </div>
-                <div className="skill__bar">
+                <div className="skills__bar">
                   <span className="skills__percentage"></span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <AboutBox/>
       </section>
-    </div>
   )
 }
 
