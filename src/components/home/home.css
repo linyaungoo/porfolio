@@ -80,7 +80,7 @@
 }
 
 .shapes {
-    position: absolute;
+    position: static;
     left: 0;
     top: 0;
     height: 100%;
